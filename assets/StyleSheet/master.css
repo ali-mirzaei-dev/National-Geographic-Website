@@ -1,3 +1,51 @@
-.subbutton{
+.subbutton {
     background-color: #ffcc00;
+    position: relative;
+    transition: 0.4s;
+    z-index: 2;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: black;
+        transition: 0.4s;
+        z-index: -1;
+    }
+
+    &:hover {
+        color: white !important;
+
+        &::after {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    i.icon.searchicon {
+        font-size: 20px !important;
+    }
+}
+
+.logo1 {
+    width: 90px;
+}
+
+
+@media (min-width:1200px) {
+    img.logo2 {
+        width: 130px;
+    }
+}
+
+.list{
+    font-weight: 500;
+}
+
+.mm {
+    min-height: 200px;
 }

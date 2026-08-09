@@ -1,3 +1,26 @@
+@media (min-width: 992px) {
+    i.icon.searchicon {
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width:1200px) {
+    img.logo2 {
+        width: 130px;
+    }
+}
+
+.dropdownli {
+    font-weight: 600;
+
+    >li {
+        &:hover {
+            color: gray;
+        }
+    }
+
+}
+
 .subbutton {
     background-color: #ffcc00;
     position: relative;
@@ -25,27 +48,174 @@
     }
 }
 
-@media (min-width: 992px) {
-    i.icon.searchicon {
-        font-size: 20px !important;
-    }
-}
-
 .logo1 {
     width: 90px;
 }
 
-
-@media (min-width:1200px) {
-    img.logo2 {
-        width: 130px;
-    }
+.list {
+    font-weight: 500;
 }
 
-.list{
-    font-weight: 500;
+.imgsize {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.imgsize2 {
+    width: 240px;
+    height: 181px;
+    object-fit: cover;
+}
+
+.textbreaker {
+    width: 220px;
 }
 
 .mm {
     min-height: 200px;
+}
+
+header {
+    >div {
+        >nav {
+            >div {
+                &:nth-of-type(2) {
+                    >ul {
+                        >li {
+                            position: relative;
+                            padding: 0px 15px;
+
+                            >a {
+                                display: flex;
+                                align-items: center;
+                                height: 100%;
+                            }
+
+                            /* dropdown */
+                            >div {
+                                border-top: 1px solid gray;
+                                top: 106%;
+                                left: -150px;
+                                position: absolute;
+                                width: 100vw;
+                                height: auto;
+                                display: block;
+                                opacity: 0;
+                                visibility: hidden;
+                                background-color: white;
+
+                                >div {
+                                    display: flex;
+                                    width: 100%;
+                                    max-width: 1320px;
+                                    margin: 0 auto;
+                                    padding: 0;
+                                    position: relative;
+
+                                    >div {
+                                        display: flex;
+                                        flex-wrap: wrap;
+
+                                        /* left */
+                                        &:first-of-type {
+                                            background-color: white;
+                                        }
+
+                                        /* right */
+                                        &:last-of-type {
+                                            background-color: #edeef0;
+
+                                            >div {
+                                                display: flex;
+                                                flex-wrap: wrap;
+
+                                                &:first-of-type {
+
+                                                    >figure {
+
+                                                        &:hover {
+                                                            >figcaption {
+                                                                text-decoration: underline;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    &::before {
+                                        content: "";
+                                        position: absolute;
+                                        top: 0;
+                                        right: 100%;
+                                        width: 100vw;
+                                        height: 100%;
+                                        background-color: white;
+                                        z-index: 2;
+                                    }
+
+                                    &::after {
+                                        content: "";
+                                        position: absolute;
+                                        top: 0;
+                                        left: 100%;
+                                        width: 100vw;
+                                        height: 100%;
+                                        background-color: #edeef0;
+                                        z-index: 2;
+                                    }
+
+                                }
+
+
+
+                            }
+
+                            &:nth-of-type(2) {
+
+                                >div {
+                                    left: -217px;
+                                }
+                            }
+
+                            &:nth-of-type(3) {
+
+                                >div {
+                                    left: -359px;
+                                }
+                            }
+
+                            &:nth-of-type(4) {
+
+                                >div {
+                                    left: -417px;
+                                }
+                            }
+
+                            &:nth-of-type(5) {
+
+                                >div {
+                                    left: -480px;
+                                }
+                            }
+
+                            &:hover {
+                                border-bottom: 4px solid #ffcc00;
+
+
+                                >div {
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

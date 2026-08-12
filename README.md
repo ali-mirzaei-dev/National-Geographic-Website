@@ -29,10 +29,10 @@ A pixel-perfect, fully responsive clone of the National Geographic homepage buil
 ## Screenshots
 
 ### Desktop View
-![Desktop Screenshot](assets/screenshots/desktop.png)
+![Desktop Screenshot](https://github.com/user-attachments/assets/3115f265-80ce-4b1a-8856-e8a38b1cf734)
 
 ### Mobile View
-![Mobile Screenshot](assets/screenshots/mobile.png)
+![Mobile Screenshot](https://github.com/user-attachments/assets/d3c5f203-96ed-49b2-9142-3535c73bd748)
 
 
 ## Installation

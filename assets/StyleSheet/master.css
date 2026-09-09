@@ -751,6 +751,7 @@ main {
                                 background-color: white;
                                 transition: 0.4s;
                                 z-index: -1;
+                                border-radius: 8px;
                             }
 
                             &:hover {
